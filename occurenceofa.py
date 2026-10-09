@@ -1,8 +1,8 @@
 names=list(input('enter the names:').split())
-found=False 
+
+count=0 
 for name in names:
-    if name.startswith("a"):
-        print(name)
-        found=True
-if not found:
-    print('names not found')
+   count+=name.count('a')
+print(names)
+
+print('occurences of a',count)
