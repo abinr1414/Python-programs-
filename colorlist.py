@@ -4,5 +4,5 @@ difference=[]
 for color in list1:
     if color not in list2:
        difference.append(color)
-print(difference)
+print(difference,"IS NOT IN LIST2")
        

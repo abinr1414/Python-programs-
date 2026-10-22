@@ -9,6 +9,9 @@ else:
           'sum of list1 is ',sum(list1),
           'sum of list2 is ',sum(list2))
 
+same=[]
+
 for num in list1:
     if num  in list2:
-       print(num,'is in list1 and list2')
+       same.append(num)
+print(same,"numbers in both lists")
